@@ -1,0 +1,92 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{D60B5634-18EC-47E2-8302-1ACFDB3CC763}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{363425D5-DA9D-4F7A-AB76-556BA7FBB780}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mongo.Services.CouponAPI", "Mongo.Services.CouponAPI\Mongo.Services.CouponAPI.csproj", "{BF972FA2-0D32-4016-82ED-7F4DC52CCD0B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integration", "Integration", "{7FAE6930-BF47-4FFC-85C7-4C54EDB1C1F9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateway", "Gateway", "{E5952902-CEE4-41B1-9CDE-B15D616DBC27}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mongo.Services.AuthAPI", "Mongo.Services.AuthAPI\Mongo.Services.AuthAPI.csproj", "{B00686A1-FA59-4AB4-ACC6-D59E9ABF1702}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mongo.Services.ProductAPI", "Mongo.Services.ProductAPI\Mongo.Services.ProductAPI.csproj", "{5512EC79-E1AB-4E82-B600-E4349DA207E0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mongo.Services.ShoppingCartAPI", "Mongo.Services.ShoppingCartAPI\Mongo.Services.ShoppingCartAPI.csproj", "{E8207C80-B15C-4E03-8BB3-493C68EF7732}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mongo.MessageBus", "Mongo.MessageBus\Mongo.MessageBus.csproj", "{43E421FB-321E-4264-8F79-BFDF4E8C3E54}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mongo.Services.EmailAPI", "Mongo.Services.EmailAPI\Mongo.Services.EmailAPI.csproj", "{6C10C716-3E57-4A4F-8CAE-9D3A459503C3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mongo.Services.OrderAPI", "Mongo.Services.OrderAPI\Mongo.Services.OrderAPI.csproj", "{DCA25EA9-BB9E-4B4C-B75E-CC119A1CCFA9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mongo.Services.RewardAPI", "Mongo.Services.RewardAPI\Mongo.Services.RewardAPI.csproj", "{151558D4-2306-4D0B-AB1B-F82F0F59E725}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mongo.Gateway.Solution", "Mongo.Gateway.Solution\Mongo.Gateway.Solution.csproj", "{1A53D26E-29D8-40B8-B97E-408F4FB5BE37}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF972FA2-0D32-4016-82ED-7F4DC52CCD0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF972FA2-0D32-4016-82ED-7F4DC52CCD0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF972FA2-0D32-4016-82ED-7F4DC52CCD0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF972FA2-0D32-4016-82ED-7F4DC52CCD0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B00686A1-FA59-4AB4-ACC6-D59E9ABF1702}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B00686A1-FA59-4AB4-ACC6-D59E9ABF1702}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B00686A1-FA59-4AB4-ACC6-D59E9ABF1702}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B00686A1-FA59-4AB4-ACC6-D59E9ABF1702}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5512EC79-E1AB-4E82-B600-E4349DA207E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5512EC79-E1AB-4E82-B600-E4349DA207E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5512EC79-E1AB-4E82-B600-E4349DA207E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5512EC79-E1AB-4E82-B600-E4349DA207E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8207C80-B15C-4E03-8BB3-493C68EF7732}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8207C80-B15C-4E03-8BB3-493C68EF7732}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8207C80-B15C-4E03-8BB3-493C68EF7732}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8207C80-B15C-4E03-8BB3-493C68EF7732}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43E421FB-321E-4264-8F79-BFDF4E8C3E54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43E421FB-321E-4264-8F79-BFDF4E8C3E54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43E421FB-321E-4264-8F79-BFDF4E8C3E54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43E421FB-321E-4264-8F79-BFDF4E8C3E54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C10C716-3E57-4A4F-8CAE-9D3A459503C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C10C716-3E57-4A4F-8CAE-9D3A459503C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C10C716-3E57-4A4F-8CAE-9D3A459503C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C10C716-3E57-4A4F-8CAE-9D3A459503C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCA25EA9-BB9E-4B4C-B75E-CC119A1CCFA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCA25EA9-BB9E-4B4C-B75E-CC119A1CCFA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCA25EA9-BB9E-4B4C-B75E-CC119A1CCFA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCA25EA9-BB9E-4B4C-B75E-CC119A1CCFA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{151558D4-2306-4D0B-AB1B-F82F0F59E725}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{151558D4-2306-4D0B-AB1B-F82F0F59E725}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{151558D4-2306-4D0B-AB1B-F82F0F59E725}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{151558D4-2306-4D0B-AB1B-F82F0F59E725}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A53D26E-29D8-40B8-B97E-408F4FB5BE37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A53D26E-29D8-40B8-B97E-408F4FB5BE37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A53D26E-29D8-40B8-B97E-408F4FB5BE37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A53D26E-29D8-40B8-B97E-408F4FB5BE37}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BF972FA2-0D32-4016-82ED-7F4DC52CCD0B} = {363425D5-DA9D-4F7A-AB76-556BA7FBB780}
+		{B00686A1-FA59-4AB4-ACC6-D59E9ABF1702} = {363425D5-DA9D-4F7A-AB76-556BA7FBB780}
+		{5512EC79-E1AB-4E82-B600-E4349DA207E0} = {363425D5-DA9D-4F7A-AB76-556BA7FBB780}
+		{E8207C80-B15C-4E03-8BB3-493C68EF7732} = {363425D5-DA9D-4F7A-AB76-556BA7FBB780}
+		{43E421FB-321E-4264-8F79-BFDF4E8C3E54} = {7FAE6930-BF47-4FFC-85C7-4C54EDB1C1F9}
+		{6C10C716-3E57-4A4F-8CAE-9D3A459503C3} = {363425D5-DA9D-4F7A-AB76-556BA7FBB780}
+		{DCA25EA9-BB9E-4B4C-B75E-CC119A1CCFA9} = {363425D5-DA9D-4F7A-AB76-556BA7FBB780}
+		{151558D4-2306-4D0B-AB1B-F82F0F59E725} = {363425D5-DA9D-4F7A-AB76-556BA7FBB780}
+		{1A53D26E-29D8-40B8-B97E-408F4FB5BE37} = {E5952902-CEE4-41B1-9CDE-B15D616DBC27}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0F246797-4A96-44FB-9962-DCFFA19CBEB0}
+	EndGlobalSection
+EndGlobal
